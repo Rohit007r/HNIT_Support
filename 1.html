@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HNIT Bot - Support Portal</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #f0f4f9, #fdfdfd);
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #007bff, #6610f2, #ff5722);
+      color: white;
+      text-align: center;
+      padding: 25px;
+      font-size: 30px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+    }
+
+    main {
+      padding: 40px;
+      max-width: 1300px;
+      margin: auto;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0px 6px 16px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0px 10px 24px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 22px;
+      background: linear-gradient(90deg, #ff5722, #007bff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #007bff;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    a:hover {
+      color: #ff5722;
+    }
+
+    footer {
+      background: linear-gradient(90deg, #ff5722, #007bff, #6610f2);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 15px;
+      margin-top: 40px;
+      box-shadow: 0px -4px 12px rgba(0,0,0,0.2);
+    }
+
+    .btn-fullpage {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background: linear-gradient(90deg, #28a745, #20c997);
+      color: white;
+      border-radius: 10px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn-fullpage:hover {
+      background: linear-gradient(90deg, #218838, #17a589);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    🚀 HNIT Support Portal
+  </header>
+
+  <main>
+    <div class="grid">
+      <!-- Useful Tools -->
+      <div class="card">
+        <h2>🔧 Useful Tools</h2>
+        <ul>
+          <li><a href="https://www.onlinemictest.com/sound-test/" target="_blank">🔊 Sound Test</a></li>
+          <li><a href="https://www.onlinemictest.com/speaker-test/" target="_blank">🎤 Speaker Test</a></li>
+          <li><a href="https://fast.com" target="_blank">⚡ Internet Speed Test</a></li>
+          <li><a href="https://whoer.net" target="_blank">🌍 IP Address Check</a></li>
+          <li><a href="https://downforeveryoneorjustme.com/" target="_blank">🌐 Website Status</a></li>
+          <li><a href="https://www.virustotal.com/" target="_blank">🛡 VirusTotal File Scan</a></li>
+          <li><a href="https://test.webrtc.org/" target="_blank">📹 Webcam Test</a></li>
+          <li><a href="https://www.keyboardtester.com/" target="_blank">⌨ Keyboard Test</a></li>
+          <li><a href="https://mouse-test.com/" target="_blank">🖱 Mouse Test</a></li>
+          <li><a href="https://time.is/" target="_blank">⏰ System Time Check</a></li>
+        </ul>
+      </div>
+      </div>
+
+      <!-- HNIT Bot -->
+      <div class="card">
+        <h2>🤖 About HNIT Bot</h2>
+        <p>HNIT Bot is your interactive assistant for IT Support queries. Always available in the popover at bottom-right corner.</p>
+        <a class="btn-fullpage" href="https://agent.jotform.com/01992d326d26766ea409a18052784c429ae7" target="_blank">💬 Open Bot in Full Page</a>
+      </div>
+
+      <!-- Contact -->
+      <div class="card">
+        <h2>📩 Support Contact</h2>
+        <p>Email: <a href="mailto:hnit.support@ergode.com">hnit.support@ergode.com</a></p>
+        <p>Developed by: <b>Rohit Gupta</b></p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 HNIT Support | All Rights Reserved
+  </footer>
+
+  <!-- Jotform Agent Bot Popover -->
+  <script src='https://cdn.jotfor.ms/agent/embedjs/01992d326d26766ea409a18052784c429ae7/embed.js'></script>
+</body>
+</html>
